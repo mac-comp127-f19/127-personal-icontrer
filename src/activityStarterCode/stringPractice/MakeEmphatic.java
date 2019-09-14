@@ -4,9 +4,7 @@
  * @author Abigail Marsh, Fall 2019
  */
 
-package stringPractice;
-
-import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.UpperCase;
+package activityStarterCode.stringPractice;
 
 import java.util.Scanner;
 
@@ -22,7 +20,7 @@ public class MakeEmphatic {
      */
     public static String makeEmphatic(String input) {
 
-        return input;
+        return input.toUpperCase() + "!!!";
     }
 
     /***
@@ -35,6 +33,6 @@ public class MakeEmphatic {
 
         String input = scan.nextLine();
 
-        System.out.println(makeEmphatic(input.toUpperCase()) + "!!!");
+        System.out.println(makeEmphatic(input));
     }
 }

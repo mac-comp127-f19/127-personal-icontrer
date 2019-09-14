@@ -4,7 +4,7 @@
  * @author Abigail Marsh, Fall 2019
  */
 
-package stringPractice;
+package activityStarterCode.stringPractice;
 
 import java.util.Scanner;
 
